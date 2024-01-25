@@ -1,0 +1,109 @@
+/* IMPOSTAZIONI GENERALI */
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(sfondo.png);
+    text-align: center;
+
+
+}
+
+hr {
+    display: none;
+}
+
+/* HEADER */
+.testa {
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    background: linear-gradient(rgb(0, 160, 198, 1), rgb(3, 109, 134, 1));
+    box-shadow: 0px 8px 10px black;
+    color: white;
+}
+
+nav,
+ul,
+li {
+    list-style: none;
+}
+
+.classe-a :hover{
+background-color: brown;
+}
+
+
+
+
+
+
+
+/* MAIN */
+b,strong{
+    color: rgb(147, 56, 147);
+}
+
+main {
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 0px 8px 10px;
+    background-color: white;
+
+}
+
+.classe-p {
+    color: rgb(161, 153, 153);
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+}
+
+table tr {
+    background-color: rgb(87, 87, 139);
+    font-weight: bold;
+
+}
+
+
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+aside {
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 0px 8px 10px;
+    background-color: white;
+
+
+}
+
+.class-div{
+    background-color:rgb(140, 202, 216) ;
+    box-shadow: 8px 10px 10px rgb(0, 160, 198, 1);
+    
+}
+
+
+/* FOOTER */
+footer{  margin: 20px;
+    padding: 30px;
+    box-shadow: 0px 8px 10px;
+    background-color: rgb(3, 109, 134, 1);
+
+}
+
+.div-due{
+    background-color:rgb(140, 202, 216);
+}
